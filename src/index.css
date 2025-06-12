@@ -114,7 +114,15 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: local('Orbitron'), url("./assets/fonts/Orbitron Source_Sans_3/Orbitron/static/Orbitron-Medium.ttf") format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
 }
