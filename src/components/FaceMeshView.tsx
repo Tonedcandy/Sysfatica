@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
-import SiteHeader from "@/components/SiteHeader"
+import { useEffect, useRef, useState } from "react";
 import {
     FaceLandmarker,
     FilesetResolver,
@@ -20,7 +19,7 @@ interface Metrics {
 }
 
 /* ─── COMPONENT ─────────────────────────────────────────── */
-export default function FaceMeshView({ width = 640 }: Props) {
+export default function FaceMeshView({ }: Props) {
     /* DOM refs */
     const rawVidRef = useRef<HTMLVideoElement>(null);
     const meshVidRef = useRef<HTMLVideoElement>(null);
