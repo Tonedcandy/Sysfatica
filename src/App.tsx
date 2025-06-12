@@ -1,4 +1,3 @@
-import React from 'react';
 import FaceMeshView from './components/FaceMeshView';
 import SiteHeader from './components/SiteHeader';
 export default function App() {

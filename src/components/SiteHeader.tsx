@@ -1,6 +1,4 @@
 // components/SiteHeader.tsx
-import React from "react";
-
 export default function SiteHeader() {
     return (
         <header className="w-full border-b bg-black backdrop-blur p-2">

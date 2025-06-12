@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
-import SiteHeader from "@/components/SiteHeader"
+import { useEffect, useRef, useState } from "react";
 import {
     FaceLandmarker,
     FilesetResolver,
