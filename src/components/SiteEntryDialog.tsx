@@ -51,7 +51,6 @@ export default function SiteEntryDialog() {
                         >
                             Privacy Policy
                         </a>
-                        .
                     </AlertDialogDescription>
                 </AlertDialogHeader>
 
