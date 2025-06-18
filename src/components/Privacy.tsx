@@ -1,5 +1,6 @@
 // src/components/Privacy.tsx
 import SiteHeader from '@/components/SiteHeader.tsx';
+import SiteFooter from '@/components/SiteFooter.tsx';
 
 export default function Privacy() {
     return (
@@ -60,11 +61,12 @@ export default function Privacy() {
                     </a>
                     .
                 </p>
-
-                <footer className="mt-16 text-center text-gray-500 text-sm">
+                {/* <footer className="mt-16 text-center text-gray-500 text-sm">
                     © 2025 Sysfatica. All rights reserved.
-                </footer>
+                </footer> */}
             </main>
+            <SiteFooter />
+
         </div>
     );
 }
