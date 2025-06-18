@@ -5,6 +5,7 @@ import SiteHeader from './components/SiteHeader';
 import SiteEntryDialog from './components/SiteEntryDialog';
 import Privacy from './components/Privacy';
 import TermsAndConditions from './components/TermsAndConditions';
+import SiteFooter from './components/SiteFooter';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
             <SiteEntryDialog />
             <SiteHeader />
             <FaceMeshView />
+            <SiteFooter />
           </div>
         }
       />
